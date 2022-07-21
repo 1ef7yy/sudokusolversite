@@ -4,10 +4,10 @@ html{
 
 
 #grid-area{
-    margin-left: 25%;
+    margin: 0 auto;
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 120px 120px 120px;
-    padding-right: 10px;
 }
 
 
@@ -52,4 +52,19 @@ input{
 
 input:focus{
     outline: none;
+}
+
+.main{
+    width: 19%;
+    margin: 0 auto;
+}
+
+button{
+    display: inherit;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.button-block{
+    width: 100%;
 }
