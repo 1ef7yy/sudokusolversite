@@ -1,0 +1,55 @@
+html{
+    margin: 0;
+}
+
+
+#grid-area{
+    margin-left: 25%;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    padding-right: 10px;
+}
+
+
+.square{
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+}
+
+
+
+.top {
+    border-top:1px solid black !important
+}
+.bottom {
+    border-bottom:2px solid black !important
+}
+.left {
+    border-left:3px solid black !important
+}
+.right {
+    border-right:3px solid black !important
+}
+
+.square-1:nth-child(-n+3), .square-2:nth-child(-n+3), .square-3:nth-child(-n+3){
+    border-top:2px solid black !important
+}
+
+.square-7:nth-child(n+6), .square-8:nth-child(n+6), .square-9:nth-child(n+6){
+    border-bottom: 1px solid black !important
+}
+
+input{
+    height: 40px;
+    width: 40px;
+    display: grid;
+    padding: 0;
+    border: 1px dotted black;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+input:focus{
+    outline: none;
+}
