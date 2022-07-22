@@ -68,7 +68,7 @@ function print_values(bo){
 			if (isNumber(bo[i][j]) == true){
 			square.children[j].value = bo[i][j]
 			} else {
-				document.getElementById('error_msg').value = 'Invalid value in the matrix!'
+				document.getElementById('error-msg').value = 'Invalid value in the matrix!'
 				return;
 			}
 		}
