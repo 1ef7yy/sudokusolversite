@@ -8,7 +8,11 @@ for (let input of inputs){
         var next = input.parentElement.nextElementSibling.firstElementChild;
     } else {
         var next = input.nextElementSibling;
-    } 
-    next.focus();      
-    }  
+    }
+    
+    if (evt.target.value != ''){
+    next.focus();
+    }
+}
+
 }
