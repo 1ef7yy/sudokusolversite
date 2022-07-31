@@ -9,9 +9,9 @@ for (let input of inputs){
     } else {
         var next = input.nextElementSibling;
     }
-    
+
     if (evt.target.value != ''){
-    next.focus();
+        next.focus();
     }
 }
 
